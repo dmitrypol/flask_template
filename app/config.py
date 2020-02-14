@@ -12,7 +12,7 @@ SECRET_KEY = 'foobar'
 dictConfig({
     'version': 1,
     'formatters': {'default': {
-        'format': '{timestamp:%(asctime)s, level:%(levelname)s, module:%(module)s, %(message)s}',
+        'format': '{timestamp:%(asctime)s, level:%(levelname)s, module:%(module)s, lineno:%(lineno)d, %(message)s}',
     }},
     'handlers': {
         'file': {
