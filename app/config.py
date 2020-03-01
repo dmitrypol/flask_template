@@ -30,13 +30,3 @@ dictConfig({
         'handlers': ['file']
     }
 })
-
-
-# FLASK_PROFILER = {
-#     "enabled": True,
-#     "storage": {
-#         "engine": "sqlalchemy",
-#         "db_url": SQLALCHEMY_DATABASE_URI
-#     },
-#     "ignore": ["^/static/.*"]
-# }
