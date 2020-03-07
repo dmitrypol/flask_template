@@ -1,4 +1,5 @@
 ''' config settings '''
+# pylint: disable = line-too-long
 import os
 from logging.config import dictConfig
 
