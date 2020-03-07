@@ -9,6 +9,9 @@ TMP_DIR = f'{HOME_DIR}tmp/'
 APP_ENV = os.environ.get('APP_ENV', 'dev')
 SECRET_KEY = 'foobar'
 
+if APP_ENV == 'test':
+    pass
+
 dictConfig({
     'version': 1,
     'formatters': {'default': {

@@ -12,4 +12,4 @@ APP.config.from_pyfile('config.py')
 # SQA = SQLAlchemy(APP)
 # MIGRATE = Migrate(APP, SQA)
 
-from . import tasks, routes
+from . import cli, routes
