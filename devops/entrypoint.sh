@@ -2,8 +2,15 @@
 # https://docs.docker.com/config/containers/multi-service_container/
 set -m
 
-flask run -h 0.0.0.0 -p 5000
+flask run -h 0.0.0.0 -p 5000 --reload &
 
-# gunicorn app:APP --bind 0.0.0.0:5000 --workers 2 --threads 2 --reload --pid tmp/gunicorn.pid
+# https://ryanstutorials.net/bash-scripting-tutorial/bash-if-statements.php
+if [ $CONTAINER_TYPE = 'web' ]
+then
+    # run web here
+elif [ $CONTAINER_TYPE = 'worker' ]
+    # run worker here
+then
+fi
 
 fg %1
