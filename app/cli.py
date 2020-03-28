@@ -1,4 +1,4 @@
-''' db models '''
+''' command line tasks '''
 # pylint: disable = missing-function-docstring, unused-argument, no-member, subprocess-run-check
 import subprocess
 import click

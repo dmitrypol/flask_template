@@ -1,5 +1,5 @@
 ''' app initializer  '''
-# pylint: disable=too-few-public-methods, wrong-import-position, cyclic-import, line-too-long
+# pylint: disable=too-few-public-methods, wrong-import-position, cyclic-import
 import os
 import logging
 from flask import Flask

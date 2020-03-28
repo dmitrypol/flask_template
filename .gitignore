@@ -106,6 +106,6 @@ venv.bak/
 #
 .vscode/*
 **.sqlite3
-tmp/*
-logs/*
-cache/*
+**/logs/*
+**/tmp/*
+**secrets*
