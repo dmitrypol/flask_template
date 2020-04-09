@@ -11,6 +11,7 @@ pytest-cov = "*"
 # pytest-mock = "*"
 # factory_boy = "*"
 # vcrpy = "*"
+# freezegun = "*"
 
 [packages]
 flask = "*"
