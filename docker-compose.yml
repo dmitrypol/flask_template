@@ -15,3 +15,12 @@ services:
     #   foo: bar
     env_file:
       - devops/common.env
+
+  # redis:
+  #   image: redis:6.0.5-alpine
+  #   expose:
+  #     - 6379
+  #   ports:
+  #     - target: 6379
+  #       published: 6379
+    
